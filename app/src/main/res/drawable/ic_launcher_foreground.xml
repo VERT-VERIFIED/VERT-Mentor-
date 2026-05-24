@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Candle 1: Bearish setup (Red) -->
+    <!-- Wick -->
+    <path
+        android:strokeColor="#FF3535"
+        android:strokeWidth="2"
+        android:pathData="M 30,35 L 30,80" />
+    <!-- Body -->
+    <path
+        android:fillColor="#FF3535"
+        android:pathData="M 25,44 H 35 V 68 H 25 Z" />
+
+    <!-- Candle 2: Liquidity Sweep & Rejection pin (White/Translucent) -->
+    <!-- Wick -->
+    <path
+        android:strokeColor="#00B0FF"
+        android:strokeWidth="2"
+        android:pathData="M 52,20 L 52,90" />
+    <!-- Body -->
+    <path
+        android:fillColor="#00B0FF"
+        android:pathData="M 47,40 H 57 V 55 H 47 Z" />
+
+    <!-- Candle 3: Powerful Bullish Breakout (Emerald profit) -->
+    <!-- Wick -->
+    <path
+        android:strokeColor="#00E676"
+        android:strokeWidth="2"
+        android:pathData="M 74,10 L 74,68" />
+    <!-- Body -->
+    <path
+        android:fillColor="#00E676"
+        android:pathData="M 69,22 H 79 V 58 H 69 Z" />
+
+    <!-- Curved Trend Arrow Sweep -->
+    <path
+        android:strokeColor="#00E676"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M 18,80 C 35,78 45,70 84,24" />
+    <path
+        android:fillColor="#00E676"
+        android:pathData="M 84,24 L 72,27 L 79,37 Z" />
+
+</vector>

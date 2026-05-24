@@ -1,0 +1,6 @@
+{
+  "name": "VERT TRADES",
+  "description": "A compassionate, Socratic AI trading tutor that walks you through charts, teaches advanced strategies, and supports your professional trading journey.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
